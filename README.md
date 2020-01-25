@@ -43,7 +43,7 @@ First, get `cookiecutter`:
 
 Now run it against this repo:
 
-    $ cookiecutter gh:vchaptsev/cookiecutter-django-vue
+    $ cookiecutter gh:binaryeast/cookiecutter-django-vue
 
 You'll be prompted for some values. Provide them, then a  project
 will be created for you.
@@ -92,3 +92,12 @@ Contributing
 ------------
 
 Help and feedback are welcome :)
+
+
+Changelog
+------------
+
+* Update python version - 3.6 -> 3.7
+* update requirements.txt - Django 3.X, Pillow 6.2.1, DRF 3.11
+* update DRF's list_route
+* fix environ error
